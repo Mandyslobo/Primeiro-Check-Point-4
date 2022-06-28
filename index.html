@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint V3</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+
+<body>
+    <header class="menu animation-efects">
+        <div class="menu-content animation-efects">
+            <img src="https://orbitgt.com/wp-content/uploads/2019/04/Buenos-Aires.png" alt="Logo do Site" />
+            <nav>
+                <ul>
+                    <li>
+                        <a href=#Home>Home</a>
+                    </li>
+
+                    <li>
+                        <a href=#Curiosidades>Curiosidades</a>
+                    </li>
+
+                    <li>
+                        <a href=#Vídeo>Vídeo</a>
+                    </li>
+
+                    <li>
+                        <a href=#Contato>Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="Home" class="content01">
+            <h1>CONHEÇA BUENOS AIRES</h1>
+
+            <P>Saiba mais sobre a Paris da América do SuL</P>
+
+            <a href="http://">
+                <button class="animation-efects">Explorar</button>
+            </a>
+        </section>
+
+        <div class="main-content">
+
+            <div class="container">
+
+                <section class="curiosidade" id="Curiosidades">
+
+                    <h1 class="sec-title">Curiosidades da Cidade</h1>
+
+                    <div class="cards">
+
+                        <article class="card">
+                            <img src="https://aguiarbuenosaires.com/wp-content/uploads/2018/07/Obelisco-2-800x534.jpg"
+                                alt="">
+                            <h1>O endereço do obelisco</h1>
+                            <p>Diz a lenda que na ponta do Obelisco de Buenos Aires está guardado um cofre com uma carta escrita por um de seus construtores, destinada a quem, algum dia, tenha a ousadia de demoli-lo. Uma pequena porta dá acesso a escada de 207 degraus, que vai até a pontinha, de onde se pode ver Buenos Aires através de quatro pequenas janelas.</p>
+                            <button>Veja mais</button>
+                        </article>
+
+                        <article class="card">
+                            <img src="https://aguiarbuenosaires.com/wp-content/uploads/2017/04/curiosidades-de-buenos-aires-livraria-avila-1024x417-800x326.jpg" alt="">
+                           <h1>A livraria mais antiga da cidade</h1>
+                           <p>A Livraria de Ávila, em frente à Igreja de San Ignácio, em San Telmo, é o único estabelecimento portenho que se mantém na ativa desde 1785! A partir da década de 1920 começou a ser conhecida como a “Livraria do Colégio”, por estar pertinho do Colégio Nacional de Buenos Aires. O local fica em Adolfo Alsina 500, vale pela tradição e história!</p> 
+                           <button>Veja mais</button> 
+                        </article>
+
+                        <article class="card">
+                            <img src="https://aguiarbuenosaires.com/wp-content/uploads/2017/02/metro_antigo.jpg" alt="">
+                           <h1>O primeiro metrô da América Latina</h1>
+                           <p>A linha A do metrô de Buenos Aires, inaugurada em 1 de dezembro de 1913, foi a primeira da América Latina. Até pouco tempo, ainda era possível “viajar” em um dos trens originais da época, com vagões e bancos de madeira e lustres antigos. Eram puro charme, mas foram substituídos por unidades mais modernas, com a promessa de serem restaurados.</p>
+                           <button>Veja mais</button>
+                        </article>
+
+                    </div>
+                </section>
+
+                <section class="video" id="Vídeo">
+                    <h1 class="sec-title">Vídeo</h1>
+
+                    <iframe src="https://www.youtube.com/embed/gKoPW6WPl68" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </section>
+
+
+                <section class="contato" id="Contato">
+    
+                    <form>
+        
+                        <h1>Quer receber informações sobre eventos na cidade e promoções? Deixe aqui seu contato para receber informações semanais da cidade luz da América do Sul.</h1>
+        
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" placeholder="Digite seu nome" minlength="5" required>
+                        </div>
+        
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email"  name="email" placeholder="Digite aqui seu e-mail" id="email" required>
+                        </div>
+        
+                        <div>
+                            <label for="dataNascimento">Data de Nascimento</label>
+                            <input type="date" placeholder="teste" name="dataNascimento" id="dataNascimento" required>
+                        </div>
+
+                        <div>
+                            <label for="preferencias">Quando viaja qual é sua preferência?</label>
+                            <select id="preferencias" required>
+                                <option value="" selected>Escolha sua preferência ao viajar</option>
+                                <option value="1">Conhecer os pontos turísticos</option>
+                                <option value="2">Conhecer lugares diferentes, inusitados</option>
+                                <option value="3">Conhecer a gastronomia local</option>
+                                <option value="4">Aproveitar o hotel</option>
+                                <option value="5">Fazer compras</option>
+                            </select>
+                        </div>
+        
+                        <section>
+        
+                            <h1>Prefere receber as informações por E-mail ou WhatsApp?</h1>
+        
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="radio" name="tipo" id="email">
+                            </div>
+        
+                            <div>
+                                <label for="whatsapp">WhatsApp</label>
+                                <input type="radio" name="tipo" id="whatsapp">
+                            </div>
+        
+                        </section>
+        
+                        <input type="submit" title="Enviar" class="button-success">
+        
+                    </form>
+        
+                </section>
+
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <section class="rodape">
+            <span>
+                <a href="https://" target="_blank">
+                    <img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="Logo linkedin">
+                </a>
+            </span>
+    
+            <span>
+                <a href="https://" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo github">
+                </a>
+            </span>
+
+            <span>
+                <a href="https://" target="_blank">
+                    <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/%C3%8Dcone-logo-Facebook-PNG.png" alt="Logo facebook">
+                </a>
+            </span>
+
+            <span>
+                <a href="https://" target="_blank">
+                    <img src="https://www.pngmart.com/files/13/Instagram-Logo-PNG-Pic-1.png" alt="Logo instagram">
+                </a>
+            </span>
+
+        </section>
+    </footer>
+
+
+</body>
+
+</html>

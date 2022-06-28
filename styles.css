@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(206, 110, 46, 0.829);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.menu .menu-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1280px;
+}
+
+.menu .menu-content ul{
+  display: flex;
+  gap: 20px;
+}
+
+.menu .menu-content ul li a{
+  text-decoration: none;
+  color: #101010;
+  font-weight: 600;
+  letter-spacing: 4px;
+  transition: 0.4s ease-in-out;
+}
+
+.menu .menu-content ul li a:hover{
+  opacity: 0.6;
+}
+
+.menu img{
+  width: 150px;
+}
+
+.content01{
+  height: 100vh;
+  background-color: rgb(44, 44, 44);
+  background-image: url("https://cdn-site.localiza.com/wp-content/uploads/2021/09/banner-buenos-aires.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-blend-mode: overlay;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content01 h1 {
+  font-size: 75px;    
+   opacity: 0.9;
+   font-weight: 300;
+}
+
+.content01 p {
+   font-size: 25px;
+   opacity: 0.6;
+   font-weight: 300;
+ }
+
+ .content01 a button {
+   color: rgba(255, 255, 255, 0.615);
+   letter-spacing: 2px;
+   background-color: rgba(206, 110, 46, 0.692);
+   width: 200px;
+   padding: 12px;
+   border: none;
+   margin-top: 24px;
+   border-radius: 12px;
+   transition: 0.4s ease-in-out;
+   cursor: pointer;
+ }
+
+
+ .content01 a button:hover {
+   color: rgba(255, 255, 255, 0.895);
+   transform: scale(1.05);
+   background-color: rgba(240, 179, 11, 0.541);
+ }
+
+ .main-content{
+  background-color: rgba(44, 44, 44, 0.671);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ }
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.curiosidade{
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-title{
+  font-size: 50px;
+  margin: 0 auto;
+  font-weight: 500;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.curiosidade .cards{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.curiosidade .cards .card{
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.curiosidade .cards .card img{
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  gap: 20px;
+
+}
+
+.curiosidade .cards .card h1{
+  font-size: 18px;
+  margin: 20px 0;
+  color: whitesmoke;
+}
+
+.curiosidade .cards .card p{
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  text-align: center;
+  color: white;
+}
+
+.curiosidade button {
+  color: rgba(255, 255, 255, 0.615);
+  letter-spacing: 2px;
+  background-color: rgba(206, 110, 46, 0.692);
+  width: 200px;
+  padding: 12px;
+  border: none;
+  margin-top: 24px;
+  border-radius: 12px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  
+}
+
+.curiosidade button:hover {
+
+background-color: rgba(240, 179, 11, 0.541);
+}
+
+
+.video {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.video iframe {
+
+  width: 100%;
+  height: 534px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgba(12, 12, 12, 0.11);
+  transition: 0.6s;
+  margin-top: 30px;
+  }
+
+.video iframe:hover {
+
+transform: scale(1.05);
+box-shadow: 20px 20px rgba(245, 203, 131, 0.0196078431);
+}
+
+
+.contato {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.contato form {
+  width: 100%;
+  background-color: rgba(207, 108, 42, 0.678);
+  padding: 42px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contato form h1 {
+  margin-bottom: 24px;
+}
+
+
+.contato form div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contato form input {
+  background-color: rgba(46, 39, 39, 0.342);
+  border: none;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.contato form input::placeholder{
+  color: white;
+}
+
+.contato form input:valid{
+  background-color: rgba(0, 128, 0, 0.288);
+}
+
+
+.contato form div select {
+  background-color: rgba(46, 39, 39, 0.342);
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+}
+
+.contato form select:valid{
+  background-color: rgba(0, 128, 0, 0.288);
+}
+
+.contato form select option{
+  background-color: rgba(24, 23, 23, 0.13);
+  color: white;
+}
+
+.contato form .button-success:hover {
+  background-color: rgb(82, 143, 101);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.rodape {
+  background-color: rgba(0, 0, 0, 0.699);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+.rodape span img{
+
+  width: 80px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  margin-right: 24px;
+  padding-top: 13px;
+
+  
+}
+
+@media screen and (max-width: 425px) {
+
+  .menu{
+    height: 120px;
+  }
+
+.menu .menu-content{
+  flex-direction: column;
+}
+
+.content01 h1{
+  font-size: 45px;
+}
+
+.content01 p{
+  font-size: 20px;
+}
+
+.sec-title{
+  font-size: 35px;
+}
+
+.video iframe{
+  width: 350px;
+  height: 200px;
+}
+
+.contato form{
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+.rodape span img{
+
+  width: 50px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+
+  
+}
+
+}
